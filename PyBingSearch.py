@@ -10,6 +10,8 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 filename = sys.argv[1] #Get file name
+
+#Requried this BING ID for using Bing search Result
 bing = PyBingSearch('UvG/iELD97We0KffqjrVFHwUrEHbe0ZCbeVfraImZRg') #Using bing api
 
 outputfile = filename.replace('.txt', "") #Set the output file name
